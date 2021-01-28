@@ -1,0 +1,7 @@
+---
+- name: Ensure desired state on Linux target servers
+  hosts: linux_servers
+
+  roles:
+    - htop
+...

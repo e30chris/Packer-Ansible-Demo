@@ -1,0 +1,7 @@
+---
+# The goal of this task is to ensure an information file local to the target server
+- name: Ensure a file exists on the target server
+  win_template:
+    src: templates/info.txt.j2
+    dest: C:\info.txt
+...

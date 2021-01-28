@@ -1,0 +1,8 @@
+---
+- name: Ensure desired state on Windows target servers
+  hosts: windows_servers
+
+  roles:
+    - infofiles
+    - gvim
+...

@@ -1,0 +1,11 @@
+---
+all:
+  hosts:
+    windows_servers:
+      ansible_host: 10.138.0.4
+      ansible_user: chris
+      ansible_password: "&[:>;H-x?q!LnM!"
+      ansible_connection: winrm
+      ansible_winrm_transport: basic
+      ansible_winrm_server_cert_validation: ignore
+...

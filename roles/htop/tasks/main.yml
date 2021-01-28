@@ -1,0 +1,8 @@
+---
+# Ensure htop is installed on a Debian target
+- name: Ensure htop is installed on a Debian target
+  apt:
+    name: htop
+    state: present
+  become: yes
+...

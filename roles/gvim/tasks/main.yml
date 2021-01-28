@@ -1,0 +1,7 @@
+---
+# The goal of this task is to install the gVim application on a Windows desktop
+- name: Ensure the install package is on local disk
+  win_get_url:
+    url: https://github.com/vim/vim-win32-installer/releases/download/v8.2.2389/gvim_8.2.2389_x64_signed.exe
+    dest: C:\gvim_8.2.2389_x64_signed.exe
+...

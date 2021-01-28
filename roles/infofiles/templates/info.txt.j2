@@ -1,0 +1,12 @@
+Server Information Summary
+--------------------------
+Facts gathered by Ansible
+Current as of:
+
+{{ now() }}
+
+hostname={{ ansible_facts['hostname'] }}
+windows_os_name={{ ansible_facts['distribution'] }}
+windows_os_major_version={{ ansible_facts['distribution_major_version'] }}
+windows_os_minor_version={{ ansible_facts['distribution_version'] }}
+windows_os_ip={{ ansible_facts['ip_addresses'] }}
